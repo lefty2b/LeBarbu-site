@@ -346,6 +346,10 @@ h3 {
 .site-footer {
   width: min(1080px, calc(100vw - 32px));
   margin: -28px auto 44px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 14px 22px;
   text-align: center;
   color: var(--muted);
   font-size: 0.96rem;
