@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Le Barbu, jeu de cartes mobile avec les 7 contrats, IA, partie rapide et variantes maison."
+    />
+    <title>Le Barbu - Le jeu des 7 contrats</title>
+    <link rel="icon" href="./assets/icon.png" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <section class="hero">
+        <div class="hero__content">
+          <img class="hero__emblem" src="./assets/le-barbu-emblem.png" alt="Embleme Le Barbu" />
+          <p class="eyebrow">Jeu mobile iOS & Android</p>
+          <h1>Le Barbu</h1>
+          <p class="subtitle">Le jeu des 7 contrats.</p>
+          <p class="language-note">Disponible en corse, anglais et francais.</p>
+          <div class="actions" aria-label="Telechargements">
+            <a class="button button--primary" href="#telecharger">Telecharger bientot</a>
+            <a class="button button--secondary" href="#regles">Voir les contrats</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="regles" class="section">
+        <div class="section__header">
+          <p class="eyebrow">Une table, quatre joueurs</p>
+          <h2>Sept contrats pour survivre au Barbu</h2>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <span>01</span>
+            <h3>Les Plis</h3>
+            <p>Evitez de remporter des plis. Le plus petit score gagne.</p>
+          </article>
+          <article class="card">
+            <span>02</span>
+            <h3>Les Coeurs</h3>
+            <p>Chaque coeur ramasse compte. Entame coeur interdite au premier pli si possible.</p>
+          </article>
+          <article class="card">
+            <span>03</span>
+            <h3>Les Dames</h3>
+            <p>Les quatre dames piquent fort. La manche s'arrete quand elles sont toutes tombees.</p>
+          </article>
+          <article class="card">
+            <span>04</span>
+            <h3>La Der</h3>
+            <p>Le dernier pli coute cher. Il faut tenir ses nerfs jusqu'au bout.</p>
+          </article>
+          <article class="card">
+            <span>05</span>
+            <h3>Le Barbu</h3>
+            <p>Le Roi de coeur tombe, la manche s'arrete. Et tout le monde le sait.</p>
+          </article>
+          <article class="card">
+            <span>06</span>
+            <h3>La Salade</h3>
+            <p>Toutes les penalites en meme temps. Le contrat ou l'on sent vraiment la table respirer.</p>
+          </article>
+          <article class="card card--wide">
+            <span>07</span>
+            <h3>La Reussite</h3>
+            <p>Posez les suites autour des valets, du 7 a l'As, avec une regle speciale d'enchainement apres les As.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="feature">
+        <div>
+          <p class="eyebrow">Partie rapide</p>
+          <h2>Une roue, un contrat, un verdict immediat</h2>
+          <p>
+            Le mode rapide tire un contrat au hasard pour une manche courte et nerveuse.
+            Parfait pour jouer une partie sans lancer une partie traditionnelle.
+          </p>
+        </div>
+        <div class="wheel wheel--complete" aria-hidden="true">
+          <img class="wheel__base" src="./assets/quick-wheel.png" alt="" />
+          <img class="wheel__pointer" src="./assets/quick-wheel-pointer.png" alt="" />
+          <img class="wheel__icon wheel__icon--plis" src="./assets/quick-icon-plis.png" alt="" />
+          <img class="wheel__icon wheel__icon--coeurs" src="./assets/quick-icon-coeurs.png" alt="" />
+          <img class="wheel__icon wheel__icon--dames" src="./assets/quick-icon-dames.png" alt="" />
+          <img class="wheel__icon wheel__icon--dernier" src="./assets/quick-icon-dernier.png" alt="" />
+          <img class="wheel__icon wheel__icon--barbu" src="./assets/quick-icon-barbu.png" alt="" />
+          <img class="wheel__icon wheel__icon--salade" src="./assets/quick-icon-salade.png" alt="" />
+          <img class="wheel__center" src="./assets/quick-wheel-center.png" alt="" />
+        </div>
+      </section>
+
+      <section id="telecharger" class="download">
+        <p class="eyebrow">Release 2</p>
+        <h2>Bientot disponible sur iPhone et Android</h2>
+        <p>
+          Les versions de test sont en preparation sur TestFlight et Google Play.
+          Les liens publics seront ajoutes ici des qu'ils seront ouverts.
+        </p>
+        <div class="actions">
+          <span class="store">App Store</span>
+          <span class="store">Google Play</span>
+        </div>
+      </section>
+
+      <footer class="site-footer">
+        <a href="./privacy.html">Politique de confidentialite</a>
+      </footer>
+    </main>
+  </body>
+</html>
