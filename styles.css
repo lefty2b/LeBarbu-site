@@ -353,11 +353,13 @@ h3 {
   position: absolute;
   z-index: 2;
   display: grid;
-  place-items: center;
-  width: 62px;
-  height: 82px;
+  align-content: end;
+  justify-items: center;
+  width: 72px;
+  height: 96px;
   border: 2px solid rgba(255, 224, 131, 0.78);
-  border-radius: 15px;
+  border-radius: 16px;
+  padding: 12px 6px 10px;
   background:
     linear-gradient(180deg, rgba(255, 244, 214, 0.14), rgba(2, 18, 14, 0.88)),
     var(--felt-deep);
@@ -377,30 +379,34 @@ h3 {
 .network-table__seat span {
   display: grid;
   place-items: center;
-  width: 34px;
-  height: 34px;
+  width: 58px;
+  min-height: 34px;
+  padding: 0 4px;
   border-radius: 999px;
   background: rgba(217, 174, 56, 0.9);
   color: #06170f;
+  font-size: 0.68rem;
   font-weight: 950;
+  line-height: 1;
+  text-align: center;
 }
 
 .network-table__seat--top {
   top: 6%;
   left: 50%;
-  transform: translateX(-50%) rotate(90deg);
+  transform: translateX(-50%);
 }
 
 .network-table__seat--right {
   right: 7%;
   top: 50%;
-  transform: translateY(-50%) rotate(180deg);
+  transform: translateY(-50%);
 }
 
 .network-table__seat--bottom {
   bottom: 6%;
   left: 50%;
-  transform: translateX(-50%) rotate(-90deg);
+  transform: translateX(-50%);
 }
 
 .network-table__seat--left {
@@ -412,7 +418,7 @@ h3 {
 .network-table__center {
   position: absolute;
   z-index: 3;
-  inset: 36%;
+  inset: 37%;
   display: grid;
   place-items: center;
   border: 2px solid rgba(217, 174, 56, 0.76);
@@ -423,15 +429,9 @@ h3 {
 
 .network-table__center span {
   color: var(--gold);
-  font-size: 0.72rem;
+  font-size: 0.92rem;
   font-weight: 950;
   text-transform: uppercase;
-}
-
-.network-table__center strong {
-  color: var(--cream);
-  font-size: 0.94rem;
-  line-height: 1;
 }
 
 .feature {
