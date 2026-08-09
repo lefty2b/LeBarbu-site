@@ -519,7 +519,7 @@ h3 {
 .wheel__center {
   position: absolute;
   z-index: 4;
-  width: 38%;
+  width: 43%;
   filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.36));
 }
 
