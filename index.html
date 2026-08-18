@@ -9,7 +9,7 @@
     />
     <title>Le Barbu - Le jeu des 7 contrats</title>
     <link rel="icon" href="./assets/icon.png" />
-    <link rel="stylesheet" href="./styles.css?v=20260818" />
+    <link rel="stylesheet" href="./styles.css?v=20260818b" />
   </head>
   <body>
     <main class="page">
@@ -20,9 +20,23 @@
           <h1>Le Barbu</h1>
           <p class="subtitle">Le jeu des 7 contrats.</p>
           <p class="language-note">Disponible en corse, anglais et francais.</p>
-          <div class="actions" aria-label="Telechargements">
-            <a class="button button--primary" href="#telecharger">Telecharger</a>
-            <a class="button button--secondary" href="#regles">Voir les contrats</a>
+          <div class="actions actions--stores hero__stores" aria-label="Telechargements">
+            <a
+              class="store-badge"
+              href="https://apps.apple.com/app/id6792509703"
+              rel="noopener"
+              aria-label="Telecharger dans l'App Store"
+            >
+              <img src="./assets/download-on-app-store.svg" alt="Download on the App Store" />
+            </a>
+            <a
+              class="store-badge store-badge--google"
+              href="https://play.google.com/store/apps/details?id=com.lefty2b.lebarbu"
+              rel="noopener"
+              aria-label="Disponible sur Google Play"
+            >
+              <img src="./assets/get-it-on-google-play.png" alt="Disponible sur Google Play" />
+            </a>
           </div>
         </div>
       </section>
@@ -137,32 +151,6 @@
           <img class="wheel__icon wheel__icon--barbu" src="./assets/quick-icon-barbu.png?v=20260814" alt="" />
           <img class="wheel__icon wheel__icon--salade" src="./assets/quick-icon-salade.png?v=20260814" alt="" />
           <img class="wheel__center" src="./assets/quick-wheel-center.png?v=20260814" alt="" />
-        </div>
-      </section>
-
-      <section id="telecharger" class="download">
-        <h2>Disponible sur iOS et Android</h2>
-        <div class="actions actions--stores" aria-label="Liens de telechargement">
-          <a class="store" href="https://apps.apple.com/app/id6792509703" rel="noopener">
-            <svg class="store__icon" viewBox="0 0 24 24" aria-hidden="true">
-              <path
-                d="M16.9 12.6c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.7-1.8-3.3-1.8-1.4-.1-2.7.8-3.4.8-.7 0-1.8-.8-3-.8-1.5 0-2.9.9-3.7 2.2-1.6 2.8-.4 6.9 1.1 9.1.8 1.1 1.7 2.3 2.9 2.3 1.2 0 1.6-.7 3-.7s1.8.7 3 .7c1.3 0 2.1-1.1 2.8-2.2.9-1.3 1.2-2.5 1.2-2.6-.1 0-2.5-1-2.6-3.5ZM14.7 5.9c.6-.7 1-1.7.9-2.7-.9 0-2 .6-2.6 1.3-.6.7-1.1 1.7-.9 2.7 1 .1 2-.5 2.6-1.3Z"
-              />
-            </svg>
-            <span>App Store</span>
-          </a>
-          <a
-            class="store"
-            href="https://play.google.com/store/apps/details?id=com.lefty2b.lebarbu"
-            rel="noopener"
-          >
-            <svg class="store__icon" viewBox="0 0 24 24" aria-hidden="true">
-              <path
-                d="M7.2 8.4h9.6c1 0 1.8.8 1.8 1.8v6.1c0 1-.8 1.8-1.8 1.8h-.4v2.1c0 .5-.4.9-.9.9s-.9-.4-.9-.9v-2.1H9.4v2.1c0 .5-.4.9-.9.9s-.9-.4-.9-.9v-2.1h-.4c-1 0-1.8-.8-1.8-1.8v-6.1c0-1 .8-1.8 1.8-1.8Zm2.1 3.2c-.5 0-.9.4-.9.9s.4.9.9.9.9-.4.9-.9-.4-.9-.9-.9Zm5.4 0c-.5 0-.9.4-.9.9s.4.9.9.9.9-.4.9-.9-.4-.9-.9-.9ZM7 7.4 5.4 5.8c-.3-.3-.3-.7 0-1 .3-.3.7-.3 1 0l1.8 1.8c1.1-.5 2.4-.8 3.8-.8s2.7.3 3.8.8l1.8-1.8c.3-.3.7-.3 1 0 .3.3.3.7 0 1L17 7.4H7Z"
-              />
-            </svg>
-            <span>Google Play</span>
-          </a>
         </div>
       </section>
 
