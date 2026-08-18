@@ -612,8 +612,56 @@ h3 {
   }
 
   .network-table {
-    width: min(100%, 380px);
+    width: min(82vw, 290px);
+    aspect-ratio: 1;
     margin: 0 auto;
+    padding: 14px;
+  }
+
+  .network-table__felt {
+    inset: 14px;
+  }
+
+  .network-table__seat {
+    width: 68px;
+    height: 88px;
+    border-radius: 15px;
+    padding: 10px 7px 8px;
+  }
+
+  .network-table__seat::before {
+    top: 8px;
+    width: 22px;
+    height: 3px;
+  }
+
+  .network-table__seat img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .network-table__seat--top {
+    top: 3%;
+  }
+
+  .network-table__seat--right {
+    right: 3%;
+  }
+
+  .network-table__seat--bottom {
+    bottom: 3%;
+  }
+
+  .network-table__seat--left {
+    left: 3%;
+  }
+
+  .network-table__center {
+    inset: 38%;
+  }
+
+  .network-table__center span {
+    font-size: 0.78rem;
   }
 
   .card--wide {
