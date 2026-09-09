@@ -797,6 +797,21 @@ h3 {
     padding-top: 28px;
   }
 
+  .legal-page {
+    padding-right: 14px;
+    padding-left: 14px;
+  }
+
+  .legal-card {
+    padding: 24px 20px 30px;
+  }
+
+  .legal-card h1 {
+    font-size: clamp(1.8rem, 8vw, 2.2rem);
+    line-height: 1.04;
+    overflow-wrap: anywhere;
+  }
+
   .grid,
   .multiplayer,
   .feature,
