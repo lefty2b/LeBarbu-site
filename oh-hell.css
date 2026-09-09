@@ -405,6 +405,11 @@
     width: 100%;
   }
 
+  .ohhell-hero__copy .eyebrow {
+    width: 100%;
+    text-align: center;
+  }
+
   .ohhell-hero h1 {
     font-size: clamp(3.7rem, 17vw, 5.6rem);
   }
@@ -430,6 +435,9 @@
 
   .text-link {
     justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
   }
 
   .ohhell__elevator--large {
