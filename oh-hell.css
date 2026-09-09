@@ -376,6 +376,12 @@
 
   .ohhell-teaser {
     margin-top: 0;
+    text-align: center;
+  }
+
+  .ohhell-teaser p {
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .ohhell-button {
@@ -388,16 +394,42 @@
 
   .ohhell-hero {
     min-height: auto;
+    justify-items: center;
     padding-bottom: 20px;
+    text-align: center;
+  }
+
+  .ohhell-hero__copy {
+    display: grid;
+    justify-items: center;
+    width: 100%;
   }
 
   .ohhell-hero h1 {
-    font-size: clamp(4rem, 19vw, 6rem);
+    font-size: clamp(3.7rem, 17vw, 5.6rem);
+  }
+
+  .ohhell-hero__text {
+    max-width: 34rem;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .ohhell-hero__actions {
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
+    width: 100%;
+  }
+
+  .soon-badge {
+    justify-content: center;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .text-link {
+    justify-content: center;
   }
 
   .ohhell__elevator--large {
