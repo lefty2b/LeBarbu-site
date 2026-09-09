@@ -797,6 +797,10 @@ h3 {
     padding-top: 28px;
   }
 
+  .hero__content {
+    transform: translateY(32px);
+  }
+
   .legal-page {
     padding-right: 14px;
     padding-left: 14px;
