@@ -11,10 +11,13 @@
     <link rel="icon" href="./assets/icon.png" />
     <link rel="stylesheet" href="./styles.css?v=20260909b" />
     <link rel="stylesheet" href="./oh-hell.css?v=20260909c" />
+    <link rel="stylesheet" href="./languages.css?v=20260914" />
+    <script src="./translations.js?v=20260914" defer></script>
+    <script src="./languages.js?v=20260914" defer></script>
   </head>
-  <body>
+  <body data-page="barbu">
     <main class="page">
-      <nav class="app-tabs" aria-label="Applications">
+      <nav class="app-tabs" aria-label="Applications" data-i18n-aria="apps">
         <a class="app-tab app-tab--active" href="./index.html">Le Barbu</a>
         <a class="app-tab" href="./oh-hell.html">OH HELL!</a>
       </nav>
@@ -22,10 +25,10 @@
       <section class="hero">
         <div class="hero__content">
           <img class="hero__emblem" src="./assets/le-barbu-emblem.png" alt="Embleme Le Barbu" />
-          <p class="eyebrow">Jeu mobile iOS & Android</p>
+          <p class="eyebrow" data-i18n="mobile">Jeu mobile iOS & Android</p>
           <h1>Le Barbu</h1>
-          <p class="subtitle">Le jeu des 7 contrats.</p>
-          <p class="language-note">Disponible en corse, anglais et francais.</p>
+          <p class="subtitle" data-i18n="subtitle">Le jeu des 7 contrats.</p>
+          <p class="language-note" data-i18n="available">Disponible en dix langues, dont le corse.</p>
           <div class="actions actions--stores hero__stores" aria-label="Telechargements">
             <a
               class="store-badge"
@@ -49,83 +52,83 @@
 
       <section class="ohhell-teaser">
         <div>
-          <p class="eyebrow">Nouveau jeu</p>
+          <p class="eyebrow" data-i18n="newGame">Nouveau jeu</p>
           <h2>OH <span>HELL!</span></h2>
-          <p>
+          <p data-i18n="teaser">
             L'ascenseur des plis arrive bientot : un jeu de plis gratuit, nerveux, en 32 cartes,
             avec annonces, atouts et IA maison.
           </p>
         </div>
-        <a class="ohhell-button" href="./oh-hell.html">Voir la page OH HELL!</a>
+        <a class="ohhell-button" href="./oh-hell.html" data-i18n="discover">Voir la page OH HELL!</a>
       </section>
 
       <section id="regles" class="section">
         <div class="section__header">
-          <p class="eyebrow">Une table, quatre joueurs</p>
-          <h2>Sept contrats pour survivre au Barbu</h2>
+          <p class="eyebrow" data-i18n="fourPlayers">Une table, quatre joueurs</p>
+          <h2 data-i18n="contracts">Sept contrats pour survivre au Barbu</h2>
         </div>
         <div class="grid">
           <article class="card">
             <span>01</span>
-            <h3>Les Plis</h3>
-            <p>Evitez de remporter des plis. Le plus petit score gagne.</p>
+            <h3 data-i18n="tricks">Les Plis</h3>
+            <p data-i18n="tricksText">Évitez de remporter des plis. Le plus petit score gagne.</p>
           </article>
           <article class="card">
             <span>02</span>
-            <h3>Les Coeurs</h3>
-            <p>Chaque coeur ramasse compte. Entame coeur interdite au premier pli si possible.</p>
+            <h3 data-i18n="hearts">Les Cœurs</h3>
+            <p data-i18n="heartsText">Chaque cœur ramassé compte. Entame cœur interdite au premier pli si possible.</p>
           </article>
           <article class="card">
             <span>03</span>
-            <h3>Les Dames</h3>
-            <p>Les quatre dames piquent fort. La manche s'arrete quand elles sont toutes tombees.</p>
+            <h3 data-i18n="queens">Les Dames</h3>
+            <p data-i18n="queensText">Les quatre dames piquent fort. La manche s'arrête quand elles sont toutes tombées.</p>
           </article>
           <article class="card">
             <span>04</span>
-            <h3>La Der</h3>
-            <p>Le dernier pli coute cher. Il faut tenir ses nerfs jusqu'au bout.</p>
+            <h3 data-i18n="last">La Der</h3>
+            <p data-i18n="lastText">Le dernier pli coûte cher. Il faut tenir ses nerfs jusqu'au bout.</p>
           </article>
           <article class="card">
             <span>05</span>
-            <h3>Le Barbu</h3>
-            <p>Le Roi de coeur tombe, la manche s'arrete. Et tout le monde le sait.</p>
+            <h3 data-i18n="king">Le Barbu</h3>
+            <p data-i18n="kingText">Le Roi de cœur tombe, la manche s'arrête. Et tout le monde le sait.</p>
           </article>
           <article class="card">
             <span>06</span>
-            <h3>La Salade</h3>
-            <p>Toutes les penalites en meme temps. Le contrat ou l'on sent vraiment la table respirer.</p>
+            <h3 data-i18n="salad">La Salade</h3>
+            <p data-i18n="saladText">Toutes les pénalités en même temps. La tension monte autour de la table.</p>
           </article>
           <article class="card card--wide">
             <span>07</span>
-            <h3>La Reussite</h3>
-            <p>Posez les suites autour des valets, du 7 a l'As, avec une regle speciale d'enchainement apres les As.</p>
+            <h3 data-i18n="sevens">La Réussite</h3>
+            <p data-i18n="sevensText">Posez les suites autour des valets, du 7 à l'As, avec une règle spéciale d'enchaînement après les As.</p>
           </article>
         </div>
       </section>
 
       <section class="multiplayer">
         <div class="multiplayer__copy">
-          <p class="eyebrow">Mode multi en reseau local</p>
-          <h2>La table autour de vous</h2>
-          <p>
+          <p class="eyebrow" data-i18n="local">Partie en réseau local</p>
+          <h2 data-i18n="localTitle">La table autour de vous</h2>
+          <p data-i18n="localText">
             Creer une table sur le meme Wi-Fi, laisser les autres telephones la detecter,
             puis jouer les memes contrats que le mode solo avec les vraies regles du Barbu.
           </p>
           <div class="multiplayer__points">
             <article>
               <span>01</span>
-              <strong>Un joueur heberge</strong>
-              <p>La table s'ouvre depuis l'application.</p>
+              <strong data-i18n="host">Un joueur héberge</strong>
+              <p data-i18n="hostText">La table s'ouvre depuis l'application.</p>
             </article>
             <article>
               <span>02</span>
-              <strong>Les autres rejoignent</strong>
-              <p>Les joueurs proches apparaissent sur le reseau local.</p>
+              <strong data-i18n="join">Les autres rejoignent</strong>
+              <p data-i18n="joinText">Les joueurs proches apparaissent sur le réseau local.</p>
             </article>
             <article>
               <span>03</span>
-              <strong>IA si besoin</strong>
-              <p>Les places libres peuvent etre completees.</p>
+              <strong data-i18n="ai">IA si besoin</strong>
+              <p data-i18n="aiText">Les places libres peuvent être complétées.</p>
             </article>
           </div>
         </div>
@@ -152,9 +155,9 @@
 
       <section class="feature">
         <div>
-          <p class="eyebrow">Partie rapide</p>
-          <h2>Une roue, un contrat, un verdict immediat</h2>
-          <p>
+          <p class="eyebrow" data-i18n="quick">Partie rapide</p>
+          <h2 data-i18n="quickTitle">Une roue, un contrat, un verdict immédiat</h2>
+          <p data-i18n="quickText">
             Le mode rapide tire un contrat au hasard pour une manche courte et nerveuse.
             Parfait pour jouer une partie sans lancer une partie traditionnelle.
           </p>
@@ -174,8 +177,8 @@
 
       <footer class="site-footer">
         <a href="./oh-hell.html">OH HELL!</a>
-        <a href="./privacy.html">Politique de confidentialite</a>
-        <a href="mailto:lefty2ghjocu@gmail.com">Contact</a>
+        <a href="./privacy.html" data-i18n="privacy">Politique de confidentialité</a>
+        <a href="mailto:lefty2ghjocu@gmail.com" data-i18n="contact">Contact</a>
       </footer>
     </main>
   </body>

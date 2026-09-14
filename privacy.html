@@ -10,106 +10,117 @@
     <title>Politique de confidentialite - Le Barbu & OH HELL!</title>
     <link rel="icon" href="./assets/icon.png" />
     <link rel="stylesheet" href="./styles.css?v=20260909b" />
+    <link rel="stylesheet" href="./languages.css?v=20260914" />
+    <script src="./translations.js?v=20260914" defer></script>
+    <script src="./privacy-translations.js?v=20260914" defer></script>
+    <script src="./languages.js?v=20260914" defer></script>
   </head>
-  <body>
+  <body data-page="privacy">
     <main class="page legal-page">
-      <a class="back-link" href="./index.html">Retour au site</a>
+      <a class="back-link" href="./index.html" data-i18n="back">Retour au site</a>
 
       <section class="legal-card">
         <p class="eyebrow">Le Barbu & OH HELL!</p>
-        <h1>Politique de confidentialite</h1>
-        <p class="legal-date">Derniere mise a jour : 9 septembre 2026</p>
+        <h1 data-i18n="privacy">Politique de confidentialité</h1>
+        <p class="legal-date" data-i18n="updated">Dernière mise à jour : 13 septembre 2026</p>
 
-        <h2>Applications concernees</h2>
-        <p>
+        <h2 data-i18n="scope">Applications concernées</h2>
+        <p data-i18n="scopeText">
           Cette politique de confidentialite concerne les applications mobiles Le Barbu et
           OH HELL! L'Ascenseur des Plis, developpees par Lefty2b / U Barbutu.
           La page dediee a OH HELL! est disponible ici :
           <a href="./oh-hell.html">OH HELL! L'Ascenseur des Plis</a>.
         </p>
 
-        <h2>Donnees collectees par le developpeur</h2>
-        <p>
+        <h2 data-i18n="collection">Données collectées par le développeur</h2>
+        <p data-i18n="collectionText">
           Les applications ne creent pas de compte utilisateur et le developpeur ne collecte pas
           directement votre nom, votre adresse e-mail, votre localisation precise, vos contacts ou
           vos donnees de paiement.
         </p>
 
-        <h2>Donnees stockees localement</h2>
-        <p>
+        <h2 data-i18n="storage">Données stockées localement</h2>
+        <p data-i18n="storageText">
           Certaines informations sont conservees uniquement sur votre appareil afin de faire
           fonctionner le jeu : nom affiche a la table, avatar choisi, reglages, statistiques locales,
           scores et partie en cours sauvegardee.
         </p>
 
-        <h2>Partage de score</h2>
-        <p>
+        <h2 data-i18n="sharing">Partage de score</h2>
+        <p data-i18n="sharingText">
           Lorsque vous utilisez le bouton de partage, l'application genere une image de score puis
           ouvre le systeme de partage de votre appareil. Le choix du destinataire et du service de
           partage vous appartient. Le developpeur ne recoit pas cette image.
         </p>
 
-        <h2>Mode multijoueur local de Le Barbu</h2>
-        <p>
-          Le mode multijoueur en reseau local de Le Barbu permet a plusieurs appareils proches de
+        <h2 data-i18n="local">Partie en réseau local</h2>
+        <p data-i18n="networkText">
+          Le mode multijoueur en reseau local de Le Barbu et de OH HELL!, dans les versions qui le proposent, permet a plusieurs appareils proches de
           jouer sur le meme Wi-Fi. Pour trouver une table et rejoindre une partie, l'application
           utilise la decouverte reseau locale de l'appareil et une connexion directe entre les
           appareils participants.
         </p>
-        <p>
+        <p data-i18n="networkData">
           Pendant une partie locale, les informations necessaires au jeu peuvent etre echangees avec
           les autres appareils de la table : nom affiche, avatar choisi, etat de la partie, cartes
           jouees, scores, contrats et actions de jeu. Ces informations servent uniquement a
           synchroniser la partie entre les joueurs presents sur le meme reseau local.
         </p>
-        <p>
-          Le Barbu n'envoie pas ces informations a un serveur du developpeur. Les appareils peuvent
+        <p data-i18n="networkPrivacy">
+          Ce mode n'envoie pas ces informations a un serveur du developpeur. Les appareils peuvent
           utiliser des informations techniques de reseau local, comme une adresse IP locale, pour
-          etablir la connexion directe. Ces informations ne sont pas collectees par Le Barbu.
+          etablir la connexion directe. Ces informations ne sont pas transmises au developpeur.
         </p>
 
-        <h2 id="oh-hell">OH HELL! et publicite</h2>
-        <p>
-          OH HELL! L'Ascenseur des Plis est une application gratuite financee par la publicite. Des
-          publicites peuvent etre affichees dans l'application, notamment en fin de partie, via
-          Google AdMob.
+        <h2 id="oh-hell" data-i18n="hellAds">OH HELL! et publicité</h2>
+        <p data-i18n="hellAdsText">
+          OH HELL! L'Ascenseur des Plis est une application gratuite. Selon la version et la
+          disponibilite du service, une publicite peut etre proposee a une transition de fin de
+          partie, via Unity LevelPlay. Cette integration remplace AppLovin MAX et l'ancienne
+          integration Google AdMob dans les nouvelles versions.
         </p>
-        <p>
-          Google AdMob peut traiter certaines donnees techniques liees a l'affichage des annonces,
-          comme l'identifiant publicitaire de l'appareil, des informations de diagnostic, des donnees
-          approximatives de localisation ou des informations sur l'appareil, selon vos reglages, vos
-          consentements et les regles de Google. Ces traitements sont soumis aux politiques de Google.
+        <p data-i18n="adsData">
+          Unity et les reseaux publicitaires actives dans LevelPlay peuvent traiter des identifiants de l'appareil,
+          son adresse IP, des informations techniques et des interactions publicitaires pour diffuser,
+          mesurer et securiser les annonces. La nouvelle integration transmet avant son
+          initialisation un refus de personnalisation publicitaire et une opposition a la vente
+          ou au partage des donnees. Elle ne sollicite pas d'autorisation de suivi ATT.
+          Ce mode limite n'exclut pas les traitements techniques necessaires a la diffusion
+          et a la prevention de la fraude. Les traitements dependent de la version et des reseaux actives.
         </p>
-        <p>
-          Vous pouvez consulter la politique de confidentialite de Google ici :
-          <a href="https://policies.google.com/privacy" rel="noopener">policies.google.com/privacy</a>.
-          Des informations sur les technologies publicitaires de Google sont aussi disponibles ici :
-          <a href="https://policies.google.com/technologies/ads" rel="noopener">policies.google.com/technologies/ads</a>.
+        <p data-i18n="adsRights">
+          Consultez la <a data-i18n="unityPrivacy" href="https://unity.com/legal/privacy-policy" rel="noopener">politique de
+          confidentialite Unity</a> pour les destinataires, la conservation des donnees et les
+          moyens d'exercer vos droits. Le bouton &laquo; Publicite et confidentialite &raquo;
+          des parametres explique le mode utilise. Il ne constitue pas un formulaire de consentement.
+          Les reglages de confidentialite de votre appareil permettent aussi de gerer les
+          autorisations de suivi. Les anciennes versions peuvent encore contenir MAX ou AdMob ;
+          cette description concerne les versions integrees avec Unity LevelPlay.
         </p>
 
-        <h2>Le Barbu et publicite</h2>
-        <p>
+        <h2 data-i18n="barbuAds">Le Barbu et publicité</h2>
+        <p data-i18n="barbuAdsText">
           Le Barbu ne contient pas de publicite et n'utilise pas d'outil d'analyse publicitaire dans
           sa version actuelle.
         </p>
 
-        <h2>Plateformes de distribution</h2>
-        <p>
+        <h2 data-i18n="stores">Plateformes de distribution</h2>
+        <p data-i18n="storesText">
           Si vous telechargez ou achetez une application via l'App Store ou Google Play, Apple ou
           Google peuvent traiter certaines donnees liees a votre compte, au paiement, au
           telechargement, a la securite ou aux statistiques de distribution selon leurs propres
           politiques de confidentialite.
         </p>
 
-        <h2>Suppression des donnees</h2>
-        <p>
+        <h2 data-i18n="deletion">Suppression des données</h2>
+        <p data-i18n="deletionText">
           Vous pouvez supprimer les donnees locales depuis les reglages de l'application lorsque les
           options correspondantes sont disponibles. Vous pouvez aussi supprimer l'application de
           votre appareil pour effacer ses donnees locales.
         </p>
 
-        <h2>Contact</h2>
-        <p>
+        <h2 data-i18n="contact">Contact</h2>
+        <p data-i18n="contactText">
           Pour toute question concernant cette politique de confidentialite, vous pouvez contacter
           le developpeur a l'adresse
           <a href="mailto:lefty2ghjocu@gmail.com">lefty2ghjocu@gmail.com</a>.

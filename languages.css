@@ -1,0 +1,161 @@
+.site-header {
+  position: relative;
+  z-index: 20;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 14px 24px;
+  width: min(1080px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 22px 0;
+}
+
+.site-header .app-tabs {
+  position: static;
+  transform: none;
+}
+
+.language-control {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  max-width: 100%;
+  color: var(--cream);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.language-control select {
+  min-height: 44px;
+  width: 178px;
+  max-width: 100%;
+  padding: 8px 10px;
+  border: 1px solid var(--gold);
+  border-radius: 8px;
+  background: #071d16;
+  color: #f4f7f8;
+  font: inherit;
+  color-scheme: dark;
+  cursor: pointer;
+}
+
+.ohhell-body .language-control {
+  color: #bfc7cb;
+}
+
+.ohhell-body .language-control select {
+  border-color: #bfc7cb;
+  background: #111416;
+}
+
+.localized a:focus-visible,
+.language-control select:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 4px;
+}
+
+.localized .page--ohhell {
+  padding-top: 0;
+}
+
+.localized .hero {
+  min-height: 0;
+  padding-top: 12px;
+  padding-bottom: 48px;
+}
+
+.localized .hero__content {
+  transform: none;
+}
+
+.localized .legal-page {
+  padding-top: 0;
+}
+
+.localized h1,
+.localized h2,
+.localized h3,
+.localized p,
+.localized a,
+.localized strong {
+  overflow-wrap: anywhere;
+  hyphens: manual;
+}
+
+.localized * {
+  letter-spacing: 0;
+}
+
+.localized .grid > *,
+.localized .multiplayer > *,
+.localized .feature > *,
+.localized .ohhell-info > *,
+.localized .ohhell-rules > * {
+  min-width: 0;
+}
+
+.localized .legal-card h1 {
+  font-size: 48px;
+  line-height: 1.1;
+}
+
+.localized .legal-card h2 {
+  font-size: 28px;
+  line-height: 1.2;
+}
+
+.localized .ohhell-rules h2 {
+  font-size: 28px;
+  line-height: 1.15;
+}
+
+.localized .ohhell-info h2,
+.localized .multiplayer__copy h2,
+.localized .section__header h2,
+.localized .feature h2 {
+  font-size: 40px;
+  line-height: 1.1;
+}
+
+.localized .ohhell-button {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+}
+
+.localized .hero__stores {
+  flex-wrap: wrap;
+}
+
+@media (max-width: 780px) {
+  .site-header {
+    flex-direction: column;
+    padding: 14px 0 22px;
+  }
+
+  .localized .ohhell-hero h1 {
+    font-size: 64px;
+    line-height: 0.95;
+  }
+
+  .localized .ohhell-hero__baseline {
+    font-size: 24px;
+  }
+
+  .localized .legal-card h1 {
+    font-size: 28px;
+  }
+
+  .localized .legal-card h2,
+  .localized .ohhell-rules h2 {
+    font-size: 24px;
+  }
+
+  .localized .ohhell-info h2,
+  .localized .multiplayer__copy h2,
+  .localized .section__header h2,
+  .localized .feature h2 {
+    font-size: 30px;
+  }
+}
